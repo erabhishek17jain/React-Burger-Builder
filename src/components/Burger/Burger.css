@@ -1,0 +1,25 @@
+.burger {
+    width: 90%;
+    margin: 72px auto 0 !important;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 40px 2% 0;
+}
+
+@media (min-width: 600px) and (min-height: 401px) {
+    .burger {
+        width: 50%;
+        height: 450px;
+        float: left;
+    }
+}
+
+@media (min-width: 950px) and (min-height: 700px) {
+    .burger {
+        width: 700px;
+        height: 600px;
+    }
+}

@@ -1,0 +1,36 @@
+.input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.labels {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.inputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 3%;
+    width: 94%;
+    display: block;
+}
+
+.inputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+
+.invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+.validationMsg {
+    color: red;
+    margin: 5px 0;
+} 
